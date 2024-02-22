@@ -8,7 +8,6 @@
 /* common */
 
 .container {
-    margin: 10px 0;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -16,7 +15,26 @@
     margin-right: 15%;
 }
 
+.container2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 25%;
+    margin-right: 25%;
+    background-color: blue;
+}
+
 /* header */
+
+nav{
+    padding: 15px 0
+    ;
+}
+
+header {
+    background-color: lightblue;
+}
+
 .navigator {
     background-color: yellow;
     color: black;
@@ -27,10 +45,15 @@
     justify-content: start;
     align-items: start;
     width: 30%;
+    border: 1px solid black;
 }
 
 .link {
-width: 50%;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    width: 50%;
+    border: 1px solid black;
 }
 
 .login {
@@ -38,4 +61,48 @@ width: 50%;
     justify-content: end;
     align-items: end;
     width: 30%;
+    border: 1px solid black;
+}
+
+/* MAIN */
+
+.layout-singolo {
+    background-color: #ee82ee;
+    /* debug */
+    height: 100px;
+}
+
+.layout-singolo2 {
+    background-color: green;
+    /* debug */
+    height: 300px;
+}
+
+.layout-grande{
+    width: 60%;
+    background-color: #1e90ff;
+    height: 100px;
+}
+
+.layout-piccolo{
+    width: 40%;
+    background-color: pink;
+    height: 100px;
+}
+
+
+.background1 {
+    background-color: white;
+    padding: 15px 0
+    ;
+}
+
+.background0 {
+    background-color: blue;
+    padding: 15px 0;
+}
+
+.background3 {
+    background-color: lightgray;
+    padding: 15px 0;
 }
