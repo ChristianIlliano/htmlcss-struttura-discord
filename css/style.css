@@ -1,0 +1,41 @@
+/* RESET */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* common */
+
+.container {
+    margin: 10px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+/* header */
+.navigator {
+    background-color: yellow;
+    color: black;
+}
+
+.logo {
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    width: 30%;
+}
+
+.link {
+width: 50%;
+}
+
+.login {
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    width: 30%;
+}
